@@ -1,6 +1,5 @@
-
 {
-  "homepage": "https://Nvhuma.github.io/quality-scanner",
+  "homepage": "https://nvhuma.github.io/quality-scanner",
   "name": "qualityscaneer",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +8,7 @@
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.1",
     "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.562.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
@@ -42,9 +42,9 @@
     ]
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
     "tailwindcss": "^4.1.18"
-  }
-   ,
+  },
   "tailwind:init": "tailwindcss init"
 }
-
