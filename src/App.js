@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { AlertCircle, CheckCircle, XCircle, TrendingUp, FileText, PlayCircle } from 'lucide-react';
 
-const ContentQualityScanner = () => {
+function App() {
   const [analysisResults, setAnalysisResults] = useState(null);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
 
@@ -435,6 +435,6 @@ const ContentQualityScanner = () => {
       </div>
     </div>
   );
-};
+}
 
-export default ContentQualityScanner;
+export default App;
